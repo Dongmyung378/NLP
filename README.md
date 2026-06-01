@@ -1,19 +1,19 @@
 ```text
 📂
-├── Corsework 1/                       # [CW1] 단어 유사도 측정 엔진
+├── Coursework 1/                      # [CW1] Word Similarity Measurement Engine
 │   └── Submit/
-│       ├── 10879360_CW1_task1.ipynb   # Hybrid Vector 모델 및 캐싱 로직
-│       ├── 10879360_CW1_task1_results.csv
-│       ├── 10879360_CW1_task2.ipynb   # FastText 및 Bigram Phraser 모델
-│       └── 10879360_CW1_task2_results.csv
+│       ├── task1_hybrid_vector.ipynb  # Hybrid Vector Model & Caching Logic Implementation
+│       ├── task1_results.csv
+│       ├── task2_fasttext_bigram.ipynb# FastText Expansion & Bigram Phraser Modeling
+│       └── task2_results.csv
 │
-├── Corsework 2/                       # [CW2] 다중 라벨 텍스트 분류 시스템
+├── Coursework 2/                      # [CW2] Multi-Label Text Classification System
 │   └── Submit/
-│       ├── 10879360_task1_code.ipynb  # BiLSTM + Attention + ASL 로스
-│       ├── 10879360_task1_results.csv
-│       ├── 10879360_task2_code.ipynb  # RoBERTa Fine-tuning (AMP 적용)
-│       ├── 10879360_task2_results.csv
-│       ├── 10879360_task3_code.ipynb  # DeBERTa-v2 + Mean Pooling + Ensemble
-│       └── 10879360_task3_results.csv
+│       ├── task1_bilstm_attention.ipynb# BiLSTM + Self-Attention Architecture with ASL (Asymmetric Loss)
+│       ├── task1_results.csv
+│       ├── task2_roberta_finetuning.ipynb# RoBERTa Fine-Tuning utilizing AMP (Automatic Mixed Precision)
+│       ├── task2_results.csv
+│       ├── task3_deberta_ensemble.ipynb# DeBERTa-v2 Optimization with Mean Pooling & Model Ensemble
+│       └── task3_results.csv
 └── README.md
 ```
