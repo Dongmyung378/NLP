@@ -18,10 +18,12 @@ An NLP pipeline designed to compute the semantic and lexical similarity between 
 ## 💡 Key Engineering Features
 
 ### Model 1: Hybrid Vector (TF-IDF + Character N-gram) — `CW1_task1`
+- **Source Code:** 👉 [Click here to view the Interactive Notebook via nbviewer](https://nbviewer.org/github/Dongmyung378/NLP/blob/main/Corsework%201/SUBMIT/10879360_CW1_task1.ipynb)
 - **Robust OOV (Out-of-Vocabulary) Handling:** Implemented a **Character N-gram Vectorizer** to mitigate fallback errors caused by unseen words, enabling spelling-based morphological inference for OOV terms.
 - **Memory & Latency Optimization:** Integrated an in-memory caching mechanism via a `_known_vector_cache` dictionary, eliminating redundant vector computations and accelerating inference speed across large-scale test datasets.
 
 ### Model 2: FastText & Bigram Phraser — `CW1_task2`
+- **Source Code:** 👉 [Click here to view the Interactive Notebook via nbviewer](https://nbviewer.org/github/Dongmyung378/NLP/blob/main/Corsework%201/SUBMIT/10879360_CW1_task2.ipynb)
 - **Subword Information Extraction:** Leveraged Gensim's FastText algorithm to learn internal n-gram representations of words, effectively resolving data sparsity and improving OOV inference accuracy over traditional word-level embeddings.
 - **Collocation Modeling (Bigram Phraser):** Built a text-normalization pipeline utilizing `gensim.models.phrases` to detect and bind multi-word expressions (e.g., 'New York') into unified tokens, significantly enhancing contextual representations.
 - **Compute Optimization (Multiprocessing):** Maximized hardware utilization by configuring CPU core-based parallel processing, substantially reducing model training time on the high-volume WikiText-103 corpus.
