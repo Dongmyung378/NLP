@@ -1,19 +1,18 @@
 ```text
 📂
-├── Coursework 1/                          # [CW1] Word Similarity Measurement Engine
+├── Coursework 1/                       # [CW1] Word Similarity Measurement Engine
 │   └── Submit/
-│       ├── task1_hybrid_vector.ipynb      # Hybrid Vector Model & Caching Logic Implementation
-│       ├── task1_results.csv
-│       ├── task2_fasttext_bigram.ipynb    # FastText Expansion & Bigram Phraser Modeling
-│       └── task2_results.csv
+│       ├── 10879360_CW1_task1.ipynb    # Hybrid Vector Model & Caching Logic Implementation
+│       ├── 10879360_CW1_task1_results.csv
+│       ├── 10879360_CW1_task2.ipynb    # FastText Expansion & Bigram Phraser Modeling
+│       └── 10879360_CW1_task2_results.csv
 │
-├── Coursework 2/                          # [CW2] Multi-Label Text Classification System
+├── Coursework 2/                       # [CW2] Multi-Label Text Classification System
 │   └── Submit/
-│       ├── task1_bilstm_attention.ipynb   # BiLSTM + Self-Attention Architecture with ASL (Asymmetric Loss)
-│       ├── task1_results.csv
-│       ├── task2_roberta_finetuning.ipynb # RoBERTa Fine-Tuning utilizing AMP (Automatic Mixed Precision)
-│       ├── task2_results.csv
-│       ├── task3_deberta_ensemble.ipynb   # DeBERTa-v2 Optimization with Mean Pooling & Model Ensemble
-│       └── task3_results.csv
+│       ├── 10879360_task1_code.ipynb   # BiLSTM + Self-Attention Architecture with ASL (Asymmetric Loss)
+│       ├── 10879360_task1_results.csv
+│       ├── 10879360_task2_code.ipynb   # RoBERTa Fine-Tuning utilizing AMP (Automatic Mixed Precision)
+│       ├── 10879360_task2_results.csv
+│       ├── 10879360_task3_code.ipynb   # DeBERTa-v2 Optimization with Mean Pooling & Model Ensemble
+│       └── 10879360_task3_results.csv
 └── README.md
-```
